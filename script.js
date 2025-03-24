@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 document.querySelector(".container").addEventListener("click", function () {
-  document.querySelector(".card").classList.toggle("flipped");
+  document.querySelector(".card").classList.add("flipped");
   setTimeout(() => {
     document.getElementById("refreshButton").style.opacity='1';
   }, 500);
