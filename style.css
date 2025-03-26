@@ -135,6 +135,10 @@ th, td {
 
 
 #refreshButton {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  
   border-radius: 6px;
   background-color: #f2a920;
   color: #15222d;
